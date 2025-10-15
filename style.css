@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav li{
     margin: 0px 10px;
 }
@@ -9,9 +14,12 @@ nav li{
     color: white;
 }
 .heading{
+    margin: none;
+    padding: none;
     position: relative;
 }
 .heading .col1{
+
     position: absolute;
     top: 50px;
     left: 50px;
