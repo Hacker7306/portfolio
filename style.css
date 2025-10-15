@@ -33,5 +33,25 @@ nav li{
     font-weight: 700;
     color: white;
     background-color: red; 
-    border-radius: 16px;
+    border-radius: 15px;
+}
+.card{
+    height: 280px;
+    transition: 0.2s;
+    box-shadow: 2px 2px 20px 1px gray;
+}
+.card:hover{
+    scale: 1.05;
+    translate: 0px -30px;
+}
+.pro{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.pro h3{
+    font-size: 40px;
 }
