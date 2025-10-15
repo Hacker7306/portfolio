@@ -13,17 +13,18 @@ nav li{
 .navbar a{
     color: white;
 }
-.heading{
-    margin: none;
-    padding: none;
-    position: relative;
-}
-.heading .col1{
 
-    position: absolute;
-    top: 50px;
-    left: 50px;
-}
 .col1 h3{
-    font-size: 50px;
+    font-size: 60px;
+}
+.mynames{
+    font-family: sans-serif;
+    color: blue;
+    font-size: 1.4em;
+}
+.pic{
+    width: 600px;
+}
+.pic img{
+    width: 100%;
 }
