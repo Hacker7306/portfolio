@@ -7,6 +7,7 @@ nav li{
     margin: 0px 10px;
 }
 .navbar{
+    z-index: 10;
     opacity: 85%;
 }
 .navbar-brand{
@@ -32,6 +33,10 @@ nav li{
 .pic img{
     width: 100%;
 }
+.nav-pills .nav-link{
+    transition: 270ms;
+
+}
 .nav-pills .nav-link.active {
     font-weight: 700;
     color: white;
@@ -40,63 +45,68 @@ nav li{
 }
 .card{
     height: 280px;
-    transition: 0.2s;
+    transition: 0.26s;
     box-shadow: 2px 2px 20px 1px gray;
 }
 .card:hover{
     scale: 1.05;
     translate: 0px -30px;
+    box-shadow: 2px 2px 23px 2px rgb(10, 10, 10);
 }
 .pro{
-    color: blue;
+    color: black;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    margin-top: 20px;
+    margin-top: 115px;
 }
 
 .pro h3{
-    font-size: 40px;
+    font-size: 45px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @keyframes namescolor {
-0%{
-    color: gray;
-    background-color: gray;
-}    
-20%{
-    color: rgb(54, 54, 54);
-    background-color: rgb(54, 54, 54);
+.collbody{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 180px;
 }
-40%{
-    color: rgb(36, 36, 53);
-    background-color: rgb(36, 36, 53);
+.card .image{
+    height: 175 px;
 }
-60%{
-    color: blue;
-    background-color: blue;
+.image img{
+    height: 100%;
 }
-80%{
-    color: darkblue;
-    background-color: darkblue;
+.skill{
+    width: 350px;
+    height: 80px;
+    padding: 15px;
+    padding-top: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 20px 3px rgb(161, 161, 161);
+    border-radius: 10px;
+    /* background-color: skyblue; */
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.26s;
 }
-100%{
-    color:gray;
-    background-color:gray;
+.skill:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 1px 1px 20px 1px rgb(0, 0, 0);
+    scale: 1.09;
+    translate: 0px -5px ;
 }
-} */
+.skillt{
+    margin-top: 0px;
+}
+.skillcoll{
+    margin-left: 160px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 1000px;
+    height: 40px;
+    border-radius: 10px;
+    padding-top: 7px;
+    box-shadow: 1px 3px 8px rgb(71, 71, 71);
+}
