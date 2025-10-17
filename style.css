@@ -40,7 +40,7 @@ nav li{
 .nav-pills .nav-link.active {
     font-weight: 700;
     color: white;
-    background-color: red; 
+    background-color: rgb(100, 255, 48);
     border-radius: 15px;
 }
 .card{
@@ -52,6 +52,7 @@ nav li{
     scale: 1.05;
     translate: 0px -30px;
     box-shadow: 2px 2px 23px 2px rgb(10, 10, 10);
+    border-bottom: 3px solid gray;
 }
 .pro{
     color: black;
@@ -62,7 +63,8 @@ nav li{
 }
 
 .pro h3{
-    font-size: 45px;
+    font-size: 60px;
+    font-weight: 700;
 }
 
 .collbody{
@@ -99,6 +101,11 @@ nav li{
 .skillt{
     margin-top: 0px;
 }
+.conhead{
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 40px;
+}
 .skillcoll{
     margin-left: 160px;
     background-color: black;
@@ -109,4 +116,105 @@ nav li{
     border-radius: 10px;
     padding-top: 7px;
     box-shadow: 1px 3px 8px rgb(71, 71, 71);
+}
+.coninfo{
+    width: 66%;
+    height: 120px;
+    border: 1px solid rgba(42,42,42,0.575);
+    border-radius: 10px;
+    padding-top: 25px;
+    margin: 20px 0px;
+    background-color: rgba(42, 42, 42, 0.575);
+    margin-left: 150px;
+    transition: 0.34s;
+}
+.coninfo:hover .box{
+    background-color: rgb(100, 255, 48);
+    animation: box 1s ease-in 1;
+}
+.coninfo:hover{
+    border: 2px solid rgb(100, 255, 48);
+    box-shadow: 1px 1px 22px 1px rgb(95, 95, 95);
+    scale: 1.03;
+}
+.coninfo p{
+    padding-top: -5px;
+}
+#contact{
+    height: 700px;
+}
+.box{
+    transition: 0.24s;
+    margin-top: 25px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}
+.send{
+    border-radius: 10px;
+    border: 1px solid rgba(42,42,42,0.575);
+    background-color: rgba(42, 42, 42, 0.575);
+    margin: 20px 0px;
+    margin-right: 35px;
+    width: 95%;
+    padding: 10px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+}
+.send .email input{
+    margin: 10px;
+    margin-top: 25px;
+    width: 45%;
+    background-color: rgba(42, 42, 42, 0.575);
+    border: 1px solid rgba(103, 103, 103, 0.575);
+}
+.send .row input{
+    height: 50px;
+}
+.send .subj input{
+    margin: 10px;
+    margin-top: 25px;
+    width: 93%;
+    background-color: rgba(42, 42, 42, 0.575);
+    border: 1px solid rgba(103, 103, 103, 0.575);
+}
+.send .subj textarea{
+    margin: 10px;
+    margin-top: 25px;
+    width: 93%;
+    background-color: rgba(42, 42, 42, 0.575);
+    border: 1px solid rgba(103, 103, 103, 0.575);
+}
+.subj{
+    display: flex;
+    justify-content: center;
+    
+}
+.subj button{
+    width: 24%;
+    margin-top: 25px;
+    padding: 10px;
+}
+@keyframes box {
+    0%{
+        translate: 0px -25px;
+    }
+    30%{
+        translate: 0px 0px;
+    }
+    50%{
+        translate: 0px -15px;
+    }
+    70%{
+        translate: 0px 0px;
+    }
+    80%{
+        translate: 0px -5px;
+    }
+    100%{
+        translate: 0px 0px;
+    }
+    
 }
