@@ -170,6 +170,12 @@ nav li{
     background-color: rgba(42, 42, 42, 0.575);
     border: 1px solid rgba(103, 103, 103, 0.575);
 }
+.send input{
+    transition: 0.4s;
+}
+.send textarea{
+    transition: 0.4s;
+}
 .send .row input{
     height: 50px;
 }
@@ -217,4 +223,10 @@ nav li{
         translate: 0px 0px;
     }
     
+}
+.send input:focus{
+    box-shadow: 0px 0px 8px 1px rgb(100, 255, 48);
+}
+.send textarea:focus{
+    box-shadow: 0px 0px 8px 1px rgb(100, 255, 48);    
 }
