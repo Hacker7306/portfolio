@@ -8,14 +8,17 @@ nav li{
 }
 .navbar{
     z-index: 10;
-    opacity: 85%;
+    opacity: 93%;
 }
+
 .navbar-brand{
     margin-left: 20px;
     font-size: 30px;
     padding: 5px;
 }
+
 .navbar a{
+    font-weight: 600;
     color: white;
 }
 
@@ -45,14 +48,16 @@ nav li{
 }
 .card{
     height: 280px;
-    transition: 0.26s;
-    box-shadow: 2px 2px 20px 1px gray;
+    transition: 0.28s;
+    box-shadow: 0px 0px 20px 3px rgba(120, 120, 120, 0.66);
+    overflow: hidden;
 }
 .card:hover{
     scale: 1.05;
     translate: 0px -30px;
-    box-shadow: 2px 2px 23px 2px rgb(10, 10, 10);
+    box-shadow: 1px 1px 20px 3px rgb(34, 34, 34);
     border-bottom: 3px solid gray;
+    border-radius: 15px;
 }
 .pro{
     color: black;
@@ -68,8 +73,10 @@ nav li{
 }
 
 .collbody{
-    background-color: black;
-    color: white;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
     width: 300px;
     height: 180px;
 }
@@ -77,6 +84,7 @@ nav li{
     height: 175px;
 }
 .image img{
+    transition: .7s;
     height: 100%;
 }
 .skill{
@@ -85,18 +93,48 @@ nav li{
     padding: 15px;
     padding-top: 20px;
     text-align: center;
-    box-shadow: 2px 2px 20px 3px rgb(161, 161, 161);
+    box-shadow: 0px 0px 30px 3px rgb(139, 139, 139);
     border-radius: 10px;
     /* background-color: skyblue; */
     border: 2px solid rgb(0, 0, 0);
-    transition: 0.26s;
+    transition: 0.5s;
 }
 .skill:hover{
-    background-color: black;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUOBiFq0Iqb-sVORZ5MEdWe0kJs94pQyWOGA&s');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: white;
     box-shadow: 1px 1px 20px 1px rgb(0, 0, 0);
     scale: 1.09;
-    translate: 0px -5px ;
+    translate: 0px -15px ;
+}
+.cssskill:hover{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOnQ_qBCooFMRgzngq0a8_eCvz8JcIdCZTug&s');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 1px 20px 1px rgb(0, 0, 0);
+    scale: 1.09;
+    translate: 0px -15px ;
+}
+.pytskill:hover{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZh436xGWhH-JElS3v19eKeyPNRrBAI2MhZQ&s');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 1px 20px 1px rgb(0, 0, 0);
+    scale: 1.09;
+    translate: 0px -15px ;
+}
+.bootskill:hover{
+    background-image: url('https://images.pexels.com/photos/270366/pexels-photo-270366.jpeg?cs=srgb&dl=pexels-pixabay-270366.jpg&fm=jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 1px 20px 1px rgb(0, 0, 0);
+    scale: 1.09;
+    translate: 0px -15px ;
 }
 .skillt{
     margin-top: 0px;
@@ -126,17 +164,13 @@ nav li{
     margin: 20px 0px;
     background-color: rgba(42, 42, 42, 0.575);
     margin-left: 150px;
-    transition: 0.34s;
+    transition: 0.4s;
 }
 .coninfo:hover .box{
     background-color: rgb(100, 255, 48);
     animation: box 1s ease-in 1;
 }
-.coninfo:hover{
-    border: 2px solid rgb(100, 255, 48);
-    box-shadow: 1px 1px 22px 1px rgb(95, 95, 95);
-    scale: 1.03;
-}
+
 .coninfo p{
     padding-top: -5px;
 }
@@ -229,4 +263,58 @@ nav li{
 }
 .send textarea:focus{
     box-shadow: 0px 0px 8px 1px rgb(100, 255, 48);    
+}
+.card:hover img{
+    scale: 1.2;
+}
+.image{
+    overflow: hidden;
+}
+.address:hover{
+    background-image: url('https://cache.careers360.mobi/media/colleges/staticmap/2025/8/31/56337.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgb(0, 146, 251);
+    box-shadow: 1px 1px 20px 1px rgb(0, 0, 0);
+    scale: 1.03;
+    translate: 0px -15px ;
+}
+.address:hover .box{
+    background-color: rgb(0, 179, 255);
+}
+.address:hover h4,.address:hover p{
+    color: black;
+}
+.phone:hover{
+    background-image: url('https://t3.ftcdn.net/jpg/03/47/38/70/360_F_347387030_8ki4ehUd4GwpKQDyt3u81RI6vMCbUZpT.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgb(0, 146, 251);
+    box-shadow: 1px 1px 20px 1px rgb(0, 0, 0);
+    scale: 1.03;
+    translate: 0px -15px ;
+}
+.phone:hover .box{
+    background-color: rgb(0, 179, 255);
+}
+.phone:hover h4,.phone:hover p{
+    color: rgb(255, 253, 253);
+}
+.emails:hover{
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20240410/pngtree-email-inbox-electronic-communication-graphics-concept-image_15653722.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgb(0, 146, 251);
+    box-shadow: 1px 1px 20px 1px rgb(0, 0, 0);
+    scale: 1.03;
+    translate: 0px -15px ;
+}
+.emails:hover .box{
+    background-color: rgb(0, 179, 255);
+}
+.emails:hover h4,.emails:hover p{
+    color: rgb(255, 253, 253);
 }
